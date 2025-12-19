@@ -1,0 +1,101 @@
+1.Create multiple passwords with varying complexity.
+    -> password
+    -> password123
+    -> welcome2024
+    -> Pass123
+    -> Password@123
+    -> Admin#2024
+    -> P@ssw0rd!2025
+    -> A9!kLm2@Q
+    -> R#8mT!2qL9
+    -> X7#qL9!vR@2mK$
+
+
+2.Use uppercase, lowercase, numbers, symbols, and length variations.
+    -> Weak: password, password123, welcome2024
+    -> Medium: Pass123, Password@123, Admin#2024
+    -> Strong: P@ssw0rd!2025, A9!kLm2@Q
+    -> Very Strong: R#8mT!2qL9, X7#qL9!vR@2mK$
+
+
+3.Test each password on password strength checker.
+    -> All passwords were tested using an online password strength checker.
+
+
+4.Note scores and feedback from the tool.
+    -> password → Extremely weak, common dictionary word
+    -> password123 → Very weak, predictable pattern
+    -> welcome2024 → Weak, common word with year
+    -> Pass123 → Weak, short length
+    -> Password@123 → Medium, common base word
+    -> Admin#2024 → Medium, role-based and predictable
+    -> P@ssw0rd!2025 → Strong, mixed characters
+    -> A9!kLm2@Q → Strong, random but shorter
+    -> R#8mT!2qL9 → Very strong, high entropy
+    -> X7#qL9!vR@2mK$ → Very strong, long and fully random
+
+
+5.Identify best practices for creating strong passwords.
+    -> Use 12–16+ characters minimum.
+    -> Combine uppercase, lowercase, numbers, and symbols.
+    -> Avoid dictionary words, names, usernames, and roles (admin, user).
+    -> Do not reuse passwords across multiple sites.
+    -> Avoid predictable patterns (123, qwerty, abc).
+    -> Do not rely on simple substitutions (a→@, o→0).
+    -> Use randomly generated passwords instead of manual ones.
+    -> Prefer passphrases with unrelated words if memorability is needed.
+    -> Store passwords in a trusted password manager.
+    -> Enable multi-factor authentication (MFA) wherever possible.
+    -> Change passwords immediately after a data breach.
+    -> Never share passwords or store them in plain text.
+
+
+6.Write down tips learned from the evaluation.
+    -> Length increases strength more than just adding symbols.
+    -> Common words + numbers are still easy to guess.
+    -> Adding a year or date makes passwords predictable.
+    -> Capitalizing only the first letter is ineffective.
+    -> Replacing letters with symbols does not add much security.
+    -> Random character placement greatly improves entropy.
+    -> Short random passwords are weaker than long passphrases.
+    -> Reused passwords fail instantly after a data breach.
+    -> Password strength meters reward entropy, not readability.
+    -> Human-made passwords are usually predictable.
+    -> Password managers create stronger passwords than manual creation.
+    -> Strong passwords reduce the success of offline cracking attacks.
+
+
+7.Research common password attacks (brute force, dictionary).
+    -> Brute Force Attack: 
+        The attacker systematically tries all possible character combinations. The time required increases exponentially with password length and complexity, making long random passwords highly effective against this attack.
+    -> Dictionary Attack: 
+        The attacker uses lists of common words, phrases, and previously leaked passwords. Any password based on real words or simple patterns is quickly cracked using this method.
+    -> Credential Stuffing: 
+        Attackers reuse leaked credentials from past data breaches to log in on other websites. This attack succeeds mainly because users reuse the same password across multiple services.
+    -> Password Spraying: 
+        Instead of attacking one account repeatedly, the attacker tries one common password across many accounts to avoid lockout mechanisms. Weak but popular passwords are the main target.
+    -> Rainbow Table Attack: 
+        Precomputed tables of password hashes are used to reverse hashes quickly. Systems using salted and strong hashing algorithms greatly reduce the effectiveness of this attack.
+    -> Phishing Attack: 
+        Attackers create fake emails or websites that mimic legitimate services to trick users into entering their passwords. This attack bypasses technical defenses by exploiting user trust.
+    -> Keylogging: 
+        Malicious software records keystrokes to capture passwords as they are typed. Even very strong passwords can be compromised if the system itself is infected.
+    -> Shoulder Surfing: 
+        Passwords are observed visually in public places or through cameras. This attack relies on physical proximity rather than technical weakness.
+    -> Offline Hash Cracking: 
+        After stealing password hashes, attackers crack them without rate limits. Long and complex passwords significantly increase cracking time, sometimes from minutes to years.
+    -> Social Engineering: 
+        Attackers manipulate users through calls, messages, or impersonation to reveal passwords. This attack targets human psychology rather than system vulnerabilities.
+
+
+8.Summarize how password complexity affects security.
+    ->From this evaluation, it is clear that simple and commonly used passwords are very easy to break using basic attacks like dictionary attacks, password spraying, and credential stuffing. 
+        As password length and randomness increase, the time and effort required to crack them also increases significantly, making brute-force and offline attacks much less effective. 
+        However, even the strongest password can still be compromised through phishing, keylogging, or social engineering, which target the user rather than the system. 
+        Overall, using long, unique passwords along with a password manager and multi-factor authentication provides the most practical and reliable level of security.
+
+
+
+
+
+
